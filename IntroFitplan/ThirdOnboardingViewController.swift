@@ -12,7 +12,10 @@ class ThirdOnboardingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var imageView = UIImageView(frame: self.view.bounds)
+        var screenshotOne = UIImage(named: "fitplan_screenshot3")
+        imageView.image = screenshotOne
+        self.view.addSubview(imageView)
         // Do any additional setup after loading the view.
     }
 

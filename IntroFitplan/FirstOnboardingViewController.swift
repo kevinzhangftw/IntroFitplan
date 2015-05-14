@@ -12,7 +12,10 @@ class FirstOnboardingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var imageView = UIImageView(frame: self.view.bounds)
+        var screenshotOne = UIImage(named: "fitplan_screenshot1")
+        imageView.image = screenshotOne
+        self.view.addSubview(imageView)
         // Do any additional setup after loading the view.
     }
 
@@ -20,11 +23,7 @@ class FirstOnboardingViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-  
-  
-  override func viewWillAppear(animated: Bool) {
-    self.view.backgroundColor = UIColor.redColor()
-  }
+
 
     /*
     // MARK: - Navigation

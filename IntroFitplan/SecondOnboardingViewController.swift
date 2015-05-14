@@ -12,7 +12,10 @@ class SecondOnboardingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      var imageView = UIImageView(frame: self.view.bounds)
+      var screenshotOne = UIImage(named: "fitplan_screenshot2")
+      imageView.image = screenshotOne
+      self.view.addSubview(imageView)
         // Do any additional setup after loading the view.
     }
 
@@ -21,9 +24,7 @@ class SecondOnboardingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-  override func viewWillAppear(animated: Bool) {
-    self.view.backgroundColor = UIColor.greenColor()
-  }
+ 
 
     /*
     // MARK: - Navigation
