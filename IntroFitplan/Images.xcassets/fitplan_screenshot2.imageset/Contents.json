@@ -2,18 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "fitplan_screenshot1.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "fitplan_screenshot1@2x.png"
+      "filename" : "fitplan_screenshot2@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "fitplan_screenshot1@3x.png"
+      "filename" : "fitplan_screenshot2@3x.png"
     }
   ],
   "info" : {

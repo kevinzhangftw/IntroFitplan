@@ -16,7 +16,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     pageViewController = JKPageViewController(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
-    pageViewController.pages = [FirstOnboardingViewController(), SecondOnboardingViewController(), ThirdOnboardingViewController(), fourthOnboardingViewController()]
+    pageViewController.pages = [FirstOnboardingViewController(), SecondOnboardingViewController(), ThirdOnboardingViewController(), FourthOnboardingViewController()]
     
     addChildViewController(pageViewController)
     view.addSubview(pageViewController.view)

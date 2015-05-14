@@ -17,7 +17,7 @@
 		342987C81B03E83D00CEF549 /* FirstOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342987C71B03E83D00CEF549 /* FirstOnboardingViewController.swift */; };
 		342987CA1B03E85400CEF549 /* SecondOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342987C91B03E85400CEF549 /* SecondOnboardingViewController.swift */; };
 		342987CC1B03E86E00CEF549 /* ThirdOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342987CB1B03E86E00CEF549 /* ThirdOnboardingViewController.swift */; };
-		342987CE1B04178500CEF549 /* fourthOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342987CD1B04178500CEF549 /* fourthOnboardingViewController.swift */; };
+		342987CE1B04178500CEF549 /* FourthOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342987CD1B04178500CEF549 /* FourthOnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		342987C71B03E83D00CEF549 /* FirstOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstOnboardingViewController.swift; sourceTree = "<group>"; };
 		342987C91B03E85400CEF549 /* SecondOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondOnboardingViewController.swift; sourceTree = "<group>"; };
 		342987CB1B03E86E00CEF549 /* ThirdOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdOnboardingViewController.swift; sourceTree = "<group>"; };
-		342987CD1B04178500CEF549 /* fourthOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthOnboardingViewController.swift; sourceTree = "<group>"; };
+		342987CD1B04178500CEF549 /* FourthOnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthOnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 			children = (
 				342987A51B03DEB700CEF549 /* AppDelegate.swift */,
 				342987A71B03DEB700CEF549 /* ViewController.swift */,
-				342987CD1B04178500CEF549 /* fourthOnboardingViewController.swift */,
 				342987C71B03E83D00CEF549 /* FirstOnboardingViewController.swift */,
 				342987C91B03E85400CEF549 /* SecondOnboardingViewController.swift */,
 				342987CB1B03E86E00CEF549 /* ThirdOnboardingViewController.swift */,
+				342987CD1B04178500CEF549 /* FourthOnboardingViewController.swift */,
 				342987C51B03DF1800CEF549 /* JKPageViewController.swift */,
 				342987A91B03DEB700CEF549 /* Main.storyboard */,
 				342987AC1B03DEB700CEF549 /* Images.xcassets */,
@@ -232,7 +232,7 @@
 				342987A81B03DEB700CEF549 /* ViewController.swift in Sources */,
 				342987C61B03DF1800CEF549 /* JKPageViewController.swift in Sources */,
 				342987CA1B03E85400CEF549 /* SecondOnboardingViewController.swift in Sources */,
-				342987CE1B04178500CEF549 /* fourthOnboardingViewController.swift in Sources */,
+				342987CE1B04178500CEF549 /* FourthOnboardingViewController.swift in Sources */,
 				342987A61B03DEB700CEF549 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +429,7 @@
 				342987C11B03DEB700CEF549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		342987C21B03DEB700CEF549 /* Build configuration list for PBXNativeTarget "IntroFitplanTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +438,7 @@
 				342987C41B03DEB700CEF549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
