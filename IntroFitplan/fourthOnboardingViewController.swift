@@ -8,22 +8,37 @@
 
 import UIKit
 ///this is the webview.
+var signupWebview: UIWebView!
+
+
 class FourthOnboardingViewController: UIViewController {
 
+  var fitplanURL: NSURL!
+  var request: NSURLRequest!
+  
+  func preloadURL(){
+    println("self.view: \(self.view)")
+    signupWebview = UIWebView(frame: self.view.bounds)
+    fitplanURL = NSURL(string: "http://fitplan.io")
+    request = NSURLRequest(URL: fitplanURL!)
+    signupWebview.loadRequest(request)
+  }
   
   
     override func viewDidLoad() {
         super.viewDidLoad()
-
-      var signupWebview: UIWebView! = UIWebView(frame: self.view.bounds)
-      let fitplanURL = NSURL(string: "http://fitplan.io")
-      let request = NSURLRequest(URL: fitplanURL!)
       
-      signupWebview.loadRequest(request)
-      
-      self.view.addSubview(signupWebview)
         // Do any additional setup after loading the view.
     }
+  
+  override func viewWillLayoutSubviews() {
+    super.viewWillLayoutSubviews()
+    self.view.addSubview(signupWebview)
+  }
+  
+  override func viewWillAppear(animated: Bool) {
+    
+  }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

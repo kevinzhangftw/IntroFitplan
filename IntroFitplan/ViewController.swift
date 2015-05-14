@@ -12,16 +12,18 @@ class ViewController: UIViewController {
 
   var pageViewController: JKPageViewController!
   
-  
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    let fourthOnboardingVC = FourthOnboardingViewController()
+    fourthOnboardingVC.preloadURL()
+    
     pageViewController = JKPageViewController(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: .Horizontal, options: nil)
-    pageViewController.pages = [FirstOnboardingViewController(), SecondOnboardingViewController(), ThirdOnboardingViewController(), FourthOnboardingViewController()]
+    pageViewController.pages = [FirstOnboardingViewController(), SecondOnboardingViewController(), ThirdOnboardingViewController(), fourthOnboardingVC]
     
     addChildViewController(pageViewController)
     view.addSubview(pageViewController.view)
     pageViewController.didMoveToParentViewController(self)
-    
     pageViewController.setInitialPage()
   }
 
@@ -35,4 +37,3 @@ class ViewController: UIViewController {
   
   
 }
-
